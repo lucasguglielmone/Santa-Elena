@@ -20,7 +20,6 @@
                     <li><a href="#">Catering Dulce</a></li>
                 </ul>
             </li>
-            <li><a href="contact.html">Contacto</a></li>
         </ul>
     </div>
     <div class="fh5co-top-social menu-1 text-right">

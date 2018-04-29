@@ -14,8 +14,7 @@
 		<div class="container">
 			<div class="row top-line animate-box">
 				<div class="col-md-12 text-left intro"> <!-- col-md-push-5 -->
-					<h2>Desde 1915 ofreciendo el mejor servicio<span class="fh5co-highlight"> <i class="icon-heart2"></i> <a >SANTA ELENA</a> </span></h2>
-					<!-- <h2>Shift is a Collection of a Beautiful &amp; Premium Themes.</h2> -->
+					<h2>Desde 1915 ofreciendo los mejores productos<span class="fh5co-highlight"> <i class="icon-heart2"></i> <a >SANTA ELENA</a> </span></h2>
 				</div>
 				
 			</div>
