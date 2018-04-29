@@ -11,10 +11,10 @@
 	<?php include_once 'nav.php'; ?>
 	
 	<div id="fh5co-work">
-		<div class="container">
+		<div class="container" >
 
-			<div class="row">
-				<div class="col-md-4 text-center animate-box">
+			<div class="row ">
+				<div class="col-md-4 animate-box">
 					<a class="work" >
 						<div class="work-grid" id="googleMap1"></div>
 					</a>
@@ -33,7 +33,7 @@
 			<br>
 
 			<div class="row">
-				<div class="col-md-4 text-center animate-box">
+				<div class="col-md-4 animate-box">
 					<a class="work" >
 						<div class="work-grid" id="googleMap2"></div>
 					</a>
@@ -53,7 +53,7 @@
 			<br>
 
 			<div class="row">
-				<div class="col-md-4 text-center animate-box">
+				<div class="col-md-4 animate-box">
 					<a class="work" >
 						<div class="work-grid" id="googleMap3"></div>
 					</a>
