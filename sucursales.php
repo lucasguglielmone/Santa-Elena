@@ -12,27 +12,64 @@
 	
 	<div id="fh5co-work">
 		<div class="container">
-			<div class="row top-line animate-box">
-				<div class="col-md-6 col-md-offset-3 col-md-push-2 text-left fh5co-heading">
-					<h2>SUCURSALES</h2>
-					<h3>chamuyo</a></h3>
-					<p>chamuyo</p>
-				</div>
-			</div>
+
 			<div class="row">
 				<div class="col-md-4 text-center animate-box">
-					<a class="work" href="portfolio_detail.html">
-						<div class="work-grid" style="background-image:url(images/project-1.jpg);">
-							<div class="inner">
-								<div class="desc">
-								<h3>Folding Light</h3>
-								<span class="cat">Branding</span>
-							</div>
-							</div>
-						</div>
+					<a class="work" >
+						<div class="work-grid" id="googleMap1"></div>
+					</a>
+				</div>
+				
+				<div class="col-md-8 animate-box">
+					<a class="work" >
+						<h3><strong>ANABELLA</strong></h3>
+						<h4>Direccion: <h5>Av. Cerviño 3379</h5></h3>
+						<h4>Telefono: <h5>	011 4801-8350</h5></h3>
+						<h4>Horarios: <h5>Lunes a Viernes de 6hs a 22hs</h5><h5>Sabado y Domingo de 7hs a 21hs</h5></h4>
 					</a>
 				</div>
 			</div>
+			
+			<br>
+
+			<div class="row">
+				<div class="col-md-4 text-center animate-box">
+					<a class="work" >
+						<div class="work-grid" id="googleMap2"></div>
+					</a>
+				</div>
+				
+				<div class="col-md-8 animate-box">
+					<a class="work" >
+						<br>
+						<h3><strong>SANTA ELENA</strong></h3>
+						<h4>Direccion: <h5>Lafinur 3245</h5></h3>
+						<h4>Telefono: <h5>011 4802-3848</h5></h3>
+						<h4>Horarios: <h5>Lunes a Domingo de 6hs a 21hs</h5></h4>
+					</a>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-md-4 text-center animate-box">
+					<a class="work" >
+						<div class="work-grid" id="googleMap3"></div>
+					</a>
+				</div>
+				
+				<div class="col-md-8 animate-box">
+					<a class="work" >
+						<br>
+						<h3><strong>SANTA ELENA</strong></h3>
+						<h4>Direccion: <h5>Darregueyra 2488</h5></h3>
+						<h4>Telefono: <h5>011 4773-0158</h5></h3>
+						<h4>Horarios: <h5>Lunes a Domingo de 6:15hs a 21hs</h5></h4>
+					</a>
+				</div>
+			</div>
+		
 		</div>
 	</div>
 	
@@ -41,9 +78,9 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Get Started</h2>
-					<p>We create beautiful themes for your site behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-					<p><a href="#" class="btn btn-primary">Let's work together</a></p>
+					<h2>HACE TU PEDIDO DE CATERING</h2>
+					<p>Ofrecemos el mejor serivio de catering, recordá que tu pedido debe realizarse con 2 dias de anticipación.</p>
+					<p><a href="#" class="btn btn-primary">ORDENAR AHORA</a></p>
 				</div>
 			</div>
 		</div>
@@ -54,19 +91,12 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> &amp; <a href="http://blog.gessato.com/" target="_blank">Gessato</a></small>
-					</p>
-					
-					<ul class="fh5co-social-icons">
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="#"><i class="icon-facebook"></i></a></li>
-						<li><a href="#"><i class="icon-linkedin"></i></a></li>
-						<li><a href="#"><i class="icon-dribbble"></i></a></li>
-					</ul>
-				
+						<small class="block">&copy; 2018 Santa Elena. Todos los derechos reservados.</small> 
+						<small class="block">Designed by <a href="http://cegeinc.com/" target="_blank">CeGeInc.com</a></small>
+					</p>					
 				</div>
 			</div>
+
 		</div>
 	</footer>
 	</div>
@@ -75,16 +105,32 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
     </div>
     
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoIa_kNxGbktlUj27zoLRKD_3v43SfZEE&callback=myMap"></script>
 <script>
 	function myMap() {
-	  var myCenter = new google.maps.LatLng(-34.57829872638948,-58.41287702322006);
- 	  var mapCanvas = document.getElementById("map");
- 	  var mapOptions = {center: myCenter, zoom: 17};
-	  var map = new google.maps.Map(mapCanvas, mapOptions);
-	  var marker = new google.maps.Marker({position:myCenter});
-	  marker.setMap(map);
+	
+	var anabella= {
+	    center:new google.maps.LatLng(-34.58085, -58.406816),
+	    zoom:19,
+	};
+
+	var santaelena1= {
+	    center:new google.maps.LatLng(-34.578203, -58.412737),
+	    zoom:18,
+	};
+
+	var santaelena2= {
+	    center:new google.maps.LatLng(-34.579924, -58.42385),
+	    zoom:19,
+	};
+
+	var map1=new google.maps.Map(document.getElementById("googleMap1"),anabella);
+	var map2=new google.maps.Map(document.getElementById("googleMap2"),santaelena1);
+	var map3=new google.maps.Map(document.getElementById("googleMap3"),santaelena2)
+
 	}
+
+
+
 </script>
 	
 	<!-- jQuery -->
@@ -97,7 +143,8 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+	<!-- Google Maps -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFubt1TgQ52X7D-mpX1IZehePH4qa3pxw&callback=myMap"></script>
 	</body>
 </html>
 

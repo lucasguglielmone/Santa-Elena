@@ -13,8 +13,9 @@
 	<div id="fh5co-work">
 		<div class="container">
 			<div class="row top-line animate-box">
-				<div class="col-md-12 text-left intro"> <!-- col-md-push-5 -->
-					<h2>Desde 1915 ofreciendo los mejores productos<span class="fh5co-highlight"> <i class="icon-heart2"></i> <a >SANTA ELENA</a> </span></h2>
+				<div class="col-md-12 animate-box"> <!-- col-md-push-5 -->
+					<h1>DESDE 1915 OFRECIENDO LA MEJOR CALIDAD</h1>
+					<h3><span class="fh5co-highlight"> <i class="icon-heart2"></i> <a >SANTA ELENA</a> </span></h3>
 				</div>
 				
 			</div>
