@@ -15,7 +15,7 @@
 			<div class="row top-line animate-box">
 				<div class="col-md-12 animate-box"> <!-- col-md-push-5 -->
 					<h1>DESDE 1915 OFRECIENDO LA MEJOR CALIDAD</h1>
-					<h3><span class="fh5co-highlight"> <i class="icon-heart2"></i> <a >SANTA ELENA</a> </span></h3>
+					<h6><span class="fh5co-highlight"> <i class="icon-heart2"></i> <a >SANTA ELENA</a> </span></h6>
 				</div>
 				
 			</div>
