@@ -11,7 +11,7 @@
     <div class="fh5co-top-menu menu-1 text-center">
         <ul>
             <li><a href="historia.html">Historia</a></li>
-            <li><a href="pedido.html">Pedido Catering</a></li>
+            <li><a href="pedido.php">Pedido Catering</a></li>
             <li><a href="sucursales.php">Sucursales</a></li>
             <li class="has-dropdown">
                 <a href="#">Productos</a>
