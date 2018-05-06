@@ -17,10 +17,12 @@
           <fieldset>
             <legend class="text-center">Hace tu pedido</legend>
             <form method="post" action="send_mail.php">
-              To : <input type="text" name="mail_to"> <br/>
-              Subject :   <input type="text" name="mail_sub">
+              Nombre y Apellido: <input type="text" name="mail_n"> <br/>
+              Direccion :   <input type="text" name="mail_d">
+              Documento :   <input type="text" name="mail_i">
+              E-mail :      <input type="text" name="mail_e">
               <br/>
-              Message   <input type="text" name="mail_msg">
+              Pedido:   <textarea rows="6" cols="81" placeholder="Pedido .." name="mail_msg"></textarea>
               <br/>
               <input type="submit" value="Send Email">
             </form>

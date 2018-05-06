@@ -1,7 +1,7 @@
 <?php
-    $mailto = $_POST['mail_to'];
-    $mailSub = $_POST['mail_sub'];
-    $mailMsg = $_POST['mail_msg'];
+    $mailto = $_POST['lgrparg@gmail.com'];
+    $mailSub = $_POST['Pedido'] . 'de' . $_POST['mail_n'];
+    $mailMsg = 'Nombre: '.$_POST['mail_n'].'\n'.'E-mail: '.$_POST['mail_e'].'\n'.'Documento: '.$_POST['mail_i'].'\n'.'Direccion: '.$_POST['mail_d'].'\n'.$_POST['mail_msg'];
    require 'PHPMailer-master/PHPMailerAutoload.php';
    $mail = new PHPMailer();
    $mail ->IsSmtp();
