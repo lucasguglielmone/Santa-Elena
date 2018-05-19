@@ -14,10 +14,10 @@
                 <li><a href="pedido.php">Pedido Catering</a></li>
                 <li><a href="sucursales.php">Sucursales</a></li>
                 <li class="has-dropdown">
-                    <a href="#">Productos</a>
+                    <a href="productos.php">Productos</a>
                     <ul class="dropdown">
-                        <li><a href="#">Catering Salado</a></li>
-                        <li><a href="#">Catering Dulce</a></li>
+                        <li><a href="productos.php?c=s">Catering Salado</a></li>
+                        <li><a href="productos.php?c=d">Catering Dulce</a></li>
                     </ul>
                 </li>
                 <!--li><a href="register.php">Registrarme!</a></li-->
