@@ -2,9 +2,8 @@
 <html>
 
 	<?php include_once 'head.php' ?>
-
 	<body>
-		
+	<style type="text/css"></style>	
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -64,7 +63,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>HACE TU PEDIDO DE CATERING</h2>
 					<p>Ofrecemos el mejor serivio de catering, recordá que tu pedido debe realizarse con 2 dias de anticipación.</p>
-					<p><a href="#" class="btn btn-primary">ORDENAR AHORA</a></p>
+					<p><a href="pedido.php" class="btn btn-primary">ORDENAR AHORA</a></p>
 				</div>
 			</div>
 		</div>
