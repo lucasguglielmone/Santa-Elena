@@ -5,21 +5,9 @@
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="/santaelena/logo.png">
 		<title>Santa Elena</title>
 
-		<!-- 
-		//////////////////////////////////////////////////////
-
-		FREE HTML5 TEMPLATE 
-		DESIGNED & DEVELOPED by FreeHTML5.co
-			
-		Website: 		http://freehtml5.co/
-		Email: 			info@freehtml5.co
-		Twitter: 		http://twitter.com/fh5co
-		Facebook: 		https://www.facebook.com/fh5co
-
-		//////////////////////////////////////////////////////
-		-->
 
 		<!-- Facebook and Twitter integration -->
 		<meta property="og:title" content=""/>
