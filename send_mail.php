@@ -1,4 +1,6 @@
 <?php
+
+if(isset($_POST['submit'])){
     $mailto = $_POST['lgrparg@gmail.com'];
     $mailSub = $_POST['Pedido'] . 'de' . $_POST['mail_n'];
     $mailMsg = 'Nombre: '.$_POST['mail_n'].'\n'.'E-mail: '.$_POST['mail_e'].'\n'.'Documento: '.$_POST['mail_i'].'\n'.'Direccion: '.$_POST['mail_d'].'\n'.$_POST['mail_msg'];
@@ -29,7 +31,12 @@
     header("Location: /santaelena/pedido.php?m=s");
     exit();
    }
+}
 
+else {
+    header("Location: /santaelena");
+    exit();
+}
 
 
 
