@@ -2,8 +2,11 @@
 
 
 ?>
-<?php include_once 'head.php' ?>
-<?php include_once 'nav.php' ?>
+<?php include_once 'head.php';
+      include_once 'nav.php' ;
+      include_once 'controller/dbConnect.php';
+      include_once 'controller/getProductos.php';
+?>
 <!------ Include the above in your HEAD tag ---------->
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -67,6 +70,19 @@ legend{
                 <input type="text" id="entrega" placeholder="Jueves 2 de Mayo">
 
                 <select id="categoria">
+                  <option value="dulce">Dulce</option>
+                  <option value="salado">Salado</option>
+                </select>
+
+                <select id="producto">
+                <option value="empty"></option>
+                <?php
+                    foreach($productos as $producto) {
+                      echo '<option value="'.$producto["id"].'"class="'.$producto['categoria'].'">'.$producto["nombre"].'</option>';
+                    }
+                ?>
+                </select>
+                <!--select id="categoria">
                   <option value="Tortas">Tortas</option>
                   <option value="Traviatas">Traviatas</option>
                   <option value="Trensitas">Trensitas</option>
@@ -80,12 +96,12 @@ legend{
                     <option value="Jamon crudo y queso">Jamon crudo y queso</option>
                     <option value="Leverbush y pepino">Leverbush y pepino</option>
                     <option value="Pastron y pepino">Pastron y pepino</option>
-                </select>
+                </select-->
 
                 <input type="text" id="cantidad"  placeholder="Cantidad" style="width: 50%;"> 
                 c/u $<input type="text" id="precio" disabled="" placeholder="--" value="40" style="width: 15%;">
 
-              <button type="button" class="boton" onclick="agregar();">AGREGAR</button>
+              <button type="button" class="boton" onclick="agregar();" id="addProdcut">AGREGAR</button>
 
               <textarea id="pedido" style=" height:25%; resize: none;" disabled="">PEDIDO:</textarea>
 
@@ -150,4 +166,25 @@ legend{
 
 
   }
+  function filterProducts(categ)
+  {
+    console.log( categ );
+    $("."+categ).css("display","none");
+  }
+
+  $( "#categoria" ).change(function() {
+    var categ = $( "#categoria").val();
+    filterProducts(categ);
+  });
+
+  $( document ).ready(function() {
+    if($("#cantidad").val() || $("#nombre").val() || $("#direccion").val() || $("#entrega").val() || $("#telefono").val()) {
+      console.log( 'yep' );
+      $("#addProduct").prop( "disabled", true );
+      $("#addProduct").css( "background-color", "grey" );
+    } else {
+      $("#addProduct").prop( "disabled", false );
+      $("#addProduct").css( "background-color", "#4CAF50" );
+    }
+  });
 </script>

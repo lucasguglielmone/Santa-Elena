@@ -1319,3 +1319,6 @@ blockquote .person cite {
 .login-form {
   display: inline-flex;
 }
+.cloak {
+  display: none;
+}

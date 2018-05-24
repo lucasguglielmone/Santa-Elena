@@ -1,6 +1,6 @@
 <?php
 
-include_once 'dbConnect.php';
+include_once 'controller/dbConnect.php';
 include_once 'head.php';
 include_once 'nav.php';
 
