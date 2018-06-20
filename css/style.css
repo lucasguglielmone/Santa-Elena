@@ -1322,3 +1322,22 @@ blockquote .person cite {
 .cloak {
   display: none;
 }
+
+.imgs {
+  border-right: 1px solid rgba(0, 0, 0, 0.596);
+}
+.imgp {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.c-precio {
+  padding-left: 10px;
+}
+.prod-header {
+  margin-bottom: 100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+}
+.table-prod {
+  margin-top: 100px;
+}
