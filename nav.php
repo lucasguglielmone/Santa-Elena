@@ -14,29 +14,13 @@
                 <li><a href="pedido.php">Pedido Catering</a></li>
                 <li><a href="sucursales.php">Sucursales</a></li>
                 <li class="has-dropdown">
-                    <a href="productos.php">Productos</a>
+                    <a>Productos</a>
                     <ul class="dropdown">
-                        <li><a href="productos.php?c=s">Catering Salado</a></li>
-                        <li><a href="productos.php?c=d">Catering Dulce</a></li>
+                        <li><a href="productos.php?c=1">Catering Salado</a></li>
+                        <li><a href="productos.php?c=2">Catering Dulce</a></li>
                     </ul>
                 </li>
                 <!--li><a href="register.php">Registrarme!</a></li-->
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <?php if (!empty($_SESSION)){  
-                    echo '<form action="/controller/login.php" method="post" class="login-form">
-                        <div class="">
-                            <input type="text" placeholder="E-mail" name="email" class="login-email">
-                        </div>
-                        <div class="">
-                            <input type="password" name="password" placeholder="Contraseña" class="login-pass">
-                        </div>
-                        <input type="submit" name="submit" class="login-btn" value="Entrar">
-                    </form>
-                    ';}
-                ?>
             </ul>
         </div>
     </div>
