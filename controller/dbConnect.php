@@ -1,14 +1,14 @@
 <?php
-//db details
-$dbHost = 'localhost';
-$dbUsername = 'root';
-$dbPassword = '';
-$dbName = 'santaelena';
 
-//Connect and select the database
-$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "santaelena";
 
-if ($db->connect_error) {
-    die("Connection failed: " . $db->connect_error);
-}
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
 ?>
