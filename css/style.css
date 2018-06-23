@@ -666,7 +666,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-started {
-  background: #cabcab;
+  background: rgb(202, 188, 171, 0.9);
 }
 #fh5co-started .fh5co-heading {
   margin-bottom: 20px !important;
