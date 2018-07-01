@@ -20,7 +20,6 @@
                         <li><a href="productos.php?c=2">Catering Dulce</a></li>
                     </ul>
                 </li>
-                <!--li><a href="register.php">Registrarme!</a></li-->
             </ul>
         </div>
     </div>
