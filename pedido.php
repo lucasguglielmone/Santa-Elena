@@ -158,8 +158,7 @@ legend{
     var cat = document.getElementById("categoria").value;
     var prod = document.getElementById('producto').options[document.getElementById('producto').selectedIndex].text;;
     var cant = document.getElementById("cantidad").value;
-    alert(cant);
-    var precio = document.getElementById("prec").value;
+    var precio = document.getElementById('prec').textContent;
     var total = document.getElementById("total").value;
     var subtotal = +precio * cant;
     total = +total + +subtotal;

@@ -7,7 +7,7 @@ include_once 'nav.php';
 if(isset($_GET['c'])) {
     $ds = $_GET['c'];
     if($ds==1 || $ds==2){
-        $productos = mysqli_query($conn, "SELECT * FROM productos WHERE ds = '$ds';");
+        $productos = mysqli_query($conn, "SELECT * FROM productos WHERE dulosal = '$ds';");
     } else {
         header("Location: /santaelena");
         exit();

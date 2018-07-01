@@ -14,7 +14,7 @@
                 <li><a href="pedido.php">Pedido Catering</a></li>
                 <li><a href="sucursales.php">Sucursales</a></li>
                 <li class="has-dropdown">
-                    <a>Productos</a>
+                    <a href="">Productos</a>
                     <ul class="dropdown">
                         <li><a href="productos.php?c=1">Catering Salado</a></li>
                         <li><a href="productos.php?c=2">Catering Dulce</a></li>
