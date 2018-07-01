@@ -59,10 +59,11 @@ if(isset($_GET['c'])) {
                             echo '</tr>';
 
                             $producto = mysqli_fetch_assoc($productos);
-                            echo '<tr class="">';
-                            echo '<th class="producto">'.$producto['nombre'].'</th>';
-                            echo '<th class="producto">$'.$producto['precio'].'</th>';
-                            echo '</tr>';
+                            if(isset($producto)){
+                                echo '<tr class="">';
+                                echo '<th class="producto">'.$producto['nombre'].'</th>';
+                                echo '<th class="producto">$'.$producto['precio'].'</th>';
+                                echo '</tr>';}
                         }
                     ?>
                 </tbody>
