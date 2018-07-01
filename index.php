@@ -6,7 +6,7 @@
 	<style type="text/css"></style>	
 	<div class="fh5co-loader"></div>
 	
-	<div id="page">
+	<div id="page" class="pagebck">
 	<?php include_once 'nav.php' ?>
 	<div id="fh5co-work">
 		<div class="container">
