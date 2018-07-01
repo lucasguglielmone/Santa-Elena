@@ -1344,3 +1344,6 @@ blockquote .person cite {
 #page {
   background: url(/santa-elena/logo.png) no-repeat fixed center;
 }
+.logrep {
+  background-image: url(/santa-elena/logo.png) repeat fixed center;
+}
