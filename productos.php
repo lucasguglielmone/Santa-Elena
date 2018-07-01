@@ -7,7 +7,7 @@ include_once 'nav.php';
 if(isset($_GET['c'])) {
     $ds = $_GET['c'];
     if($ds==1 || $ds==2){
-        $productos = mysqli_query($conn, "SELECT * FROM productos WHERE dulosal = '$ds';");
+        $productos = mysqli_query($conn, "SELECT * FROM productos INNER JOIN precio ON productos.id_producto = precio.id_producto WHERE dulosal = '$ds' ;");
     } else {
         header("Location: /santaelena");
         exit();
@@ -47,9 +47,6 @@ if(isset($_GET['c'])) {
                         <th>
                             Precio
                         </th>
-                        <th>
-                            Catering
-                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -58,18 +55,12 @@ if(isset($_GET['c'])) {
                             echo '<tr class="active">';
                             echo '<th class="producto">'.$producto['nombre'].'</th>';
                             echo '<th class="producto">$'.$producto['precio'].'</th>';
-                            echo '<th class="producto">'; 
-                            if($producto['catering']==1){echo 'Si';}else{echo 'No';}
-                            echo '</th>';
                             echo '</tr>';
 
                             $producto = mysqli_fetch_assoc($productos);
                             echo '<tr class="">';
                             echo '<th class="producto">'.$producto['nombre'].'</th>';
                             echo '<th class="producto">$'.$producto['precio'].'</th>';
-                            echo '<th class="producto">'; 
-                            if($producto['catering']==1){echo 'Si';}else{echo 'No';}
-                            echo '</th>';
                             echo '</tr>';
                         }
                     ?>

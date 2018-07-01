@@ -1324,7 +1324,7 @@ blockquote .person cite {
 }
 
 .imgs {
-  border-right: 1px solid rgba(0, 0, 0, 0.596);
+  /*border-right: 1px solid rgba(0, 0, 0, 0.596);*/
 }
 .imgp {
   margin-bottom: 10px;
