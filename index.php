@@ -20,37 +20,37 @@
 			<div class="row">
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/index/1.jpg);">
+						<div class="work-grid" style="background-image:url(images/ph/Pic1.jpeg);">
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/index/2.jpg);">
+						<div class="work-grid" style="background-image:url(images/ph/Pic2.jpeg);">
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/index/3.jpg);">
+						<div class="work-grid" style="background-image:url(images/ph/Pic3.jpeg);">
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/index/4.jpg);">
+						<div class="work-grid" style="background-image:url(images/ph/Pic0.jpeg);">
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/index/5.jpg);">
+						<div class="work-grid" style="background-image:url(images/ph/Pic5.jpeg);">
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/index/6.jpg);">
+						<div class="work-grid" style="background-image:url(images/ph/Pic6.jpeg);">
 						</div>
 					</a>
 				</div>

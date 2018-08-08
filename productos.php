@@ -26,11 +26,11 @@ if(isset($_GET['c'])) {
 <div class="container table-prod">
     <div class="row">
         <div class="col-md-3 imgs">
-            <img src="./images/index/1.jpg" alt="catering" height="150" width="280" class="imgp">
-            <img src="./images/index/2.jpg" alt="catering" height="150" width="280" class="imgp">
-            <img src="./images/index/3.jpg" alt="catering" height="150" width="280" class="imgp">
-            <img src="./images/index/4.jpg" alt="catering" height="150" width="280" class="imgp">
-            <img src="./images/index/6.jpg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/Pic1.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/Pic2.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/Pic3.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/Pic4.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/Pic6.jpeg" alt="catering" height="150" width="280" class="imgp">
         </div>
         <div class="col-md-9">
         <?php 
