@@ -7,7 +7,7 @@ include_once 'nav.php';
 if(isset($_GET['c'])) {
     $ds = $_GET['c'];
     if($ds==1 || $ds==2){
-        $productos = mysqli_query($conn, "SELECT * FROM productos INNER JOIN precio ON productos.id_producto = precio.id_producto WHERE dulosal = '$ds' ;");
+        $productos = mysqli_query($conn, "SELECT DISTINCT productos.id_producto, productos.nombre AS 'nombre0', productos.dulosal, precio.precio, categorias.nombre FROM productos INNER JOIN precio ON productos.id_producto = precio.id_producto INNER JOIN categorias ON productos.id_categoria = categorias.id_categoria WHERE dulosal = '$ds' ;");
     } else {
         header("Location: /santaelena");
         exit();
@@ -61,7 +61,7 @@ if(isset($_GET['c'])) {
                             $producto = mysqli_fetch_assoc($productos);
                             if(isset($producto)){
                                 echo '<tr class="">';
-                                echo '<th class="producto">'.$producto['nombre'].'</th>';
+                                echo '<th class="producto">'.$producto['nombre'].' '.$producto['nombre0'].'</th>';
                                 echo '<th class="producto">$'.$producto['precio'].'</th>';
                                 echo '</tr>';}
                         }
