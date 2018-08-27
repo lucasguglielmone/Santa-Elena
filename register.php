@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+NNNN<!DOCTYPE HTML>
 <html>
 
 	<?php include_once 'head.php' ?>

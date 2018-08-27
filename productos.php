@@ -27,10 +27,22 @@ if(isset($_GET['c'])) {
     <div class="row">
         <div class="col-md-3 imgs">
             <img src="./images/ph/Pic1.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s1.jpg" alt="catering" height="150" width="280" class="imgp">
             <img src="./images/ph/Pic2.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s2.jpg" alt="catering" height="150" width="280" class="imgp">
             <img src="./images/ph/Pic3.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s3.jpg" alt="catering" height="150" width="280" class="imgp">
             <img src="./images/ph/Pic4.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s4.jpg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s5.jpg" alt="catering" height="150" width="280" class="imgp">
             <img src="./images/ph/Pic6.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s6.jpg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/Pic7.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s7.jpg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/Pic8.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s8.jpg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/Pic9.jpeg" alt="catering" height="150" width="280" class="imgp">
+            <img src="./images/ph/s9.jpg" alt="catering" height="150" width="280" class="imgp">
         </div>
         <div class="col-md-9">
         <?php 
