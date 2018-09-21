@@ -1,8 +1,8 @@
 <?php
 //db details
 $dbHost = 'localhost';
-$dbUsername = 'root';
-$dbPassword = '';
+$dbUsername = 'matipanaderia';
+$dbPassword = 'alonso';
 $dbName = 'santaelena';
 
 //Connect and select the database

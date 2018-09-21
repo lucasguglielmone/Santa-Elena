@@ -1342,10 +1342,10 @@ blockquote .person cite {
   margin-top: 100px;
 }
 .pagebck {
-  background: url(/santa-elena/logo.png) no-repeat fixed center;
+  background: url(/logo.png) no-repeat fixed center;
 }
 .logrep {
-  background-image: url(/santa-elena/logo.png) repeat fixed center;
+  background-image: url(/logo.png) repeat fixed center;
 }
 
 a {

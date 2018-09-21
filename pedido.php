@@ -1,6 +1,6 @@
 <?php include_once 'head.php';
       include_once 'nav.php' ;
-    include('dbConfig.php');
+      include_once 'dbConfig.php';
     
     //Get all categoria data
     $query = $db->query("SELECT * FROM categorias ORDER BY nombre ASC");

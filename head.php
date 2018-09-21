@@ -5,7 +5,7 @@
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="icon" href="/santa-elena/logo.png">
+		<link rel="icon" href="/logo.png">
 		<title>Santa Elena</title>
 
 
