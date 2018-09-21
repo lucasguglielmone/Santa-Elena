@@ -4,7 +4,7 @@
 <html>
     <?php include_once 'head.php'; ?>
 	<body>
-		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">

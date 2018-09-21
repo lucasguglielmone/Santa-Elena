@@ -5,7 +5,7 @@
 	<body>
 	<style type="text/css"></style>	
 	<div class="fh5co-loader"></div>
-	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<div id="page" class="pagebck">
 	<?php include_once 'nav.php' ?>
 	<div id="fh5co-work">
@@ -26,13 +26,7 @@
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/ph/Pic2.jpeg);">
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<a class="work">
-						<div class="work-grid" style="background-image:url(images/ph/Pic3.jpeg);">
+						<div class="work-grid" style="background-image:url(images/ph/s6.jpg);">
 						</div>
 					</a>
 				</div>
@@ -44,13 +38,19 @@
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/ph/Pic5.jpeg);">
+						<div class="work-grid" style="background-image:url(images/ph/s2.jpg);">
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 text-center animate-box">
 					<a class="work">
-						<div class="work-grid" style="background-image:url(images/ph/Pic6.jpeg);">
+						<div class="work-grid" style="background-image:url(images/ph/Pic4.jpeg);">
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<a class="work">
+						<div class="work-grid" style="background-image:url(images/ph/s3.jpg);">
 						</div>
 					</a>
 				</div>
@@ -75,7 +75,7 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2018 Santa Elena. Todos los derechos reservados.</small> 
-						<small class="block">Designed by <a href="http://cegeinc.com/" target="_blank">CeGeInc.com</a></small>
+						
 					</p>					
 				</div>
 			</div>
